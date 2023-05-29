@@ -1,18 +1,14 @@
 
 import './App.css';
-import Cards from './cards';
+import CustomizedDialogs from './components/molecules/signUpPage/signUP';
 
 function App() {
+  return(
+    <div className='App'>
+ <CustomizedDialogs/>
 
-
-
-  return (
-    <div className="App">
-    <Cards/>
-    
-     
     </div>
-  );
+  )
 }
 
 export default App;
